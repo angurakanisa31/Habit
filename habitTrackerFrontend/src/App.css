@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+    color: pink;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid pink;
+    background-color: white;
+  }
+  
+  button {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff69b4; /* Slightly darker pink */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border: 1px solid pink;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid pink;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: pink;
+    color: white;
+  }
+  
+  table td {
+    background-color: white;
+    color: pink;
+  }
+  
+  h1, h2 {
+    color: pink;
+  }
+  
