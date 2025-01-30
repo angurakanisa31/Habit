@@ -14,7 +14,7 @@ const Signup = (props) => {
     event.preventDefault();
     console.log("Event Triggered");
     try{
-      const req=await axios.post("http://localhost:5000/signup",{
+      const req=await axios.post("https://habit-t6bn.onrender.com/signup",{
         firstName:firstName,
         lastName:lastName,
         username:username,

@@ -11,7 +11,7 @@ const Login = (props) => {
     event.preventDefault();
     console.log("Event Triggered");
     try{
-      const req= await axios.post("http://localhost:5000/login",{
+      const req= await axios.post("https://habit-t6bn.onrender.com/login",{
         email:email,
          password:password,
       });
