@@ -5,6 +5,7 @@ const signupSchema = new mongoose.Schema({
   username: String,
   email: String,
   password: String,
+  lastEmailSentDate: { type: String, default: "" }
 });
 const Signup = mongoose.model("Signup", signupSchema);
 module.exports = Signup;
